@@ -120,8 +120,6 @@ class ApiTodolistController extends Controller
         ->delete();
 
         return response()->json(['message' => "Delete Success"]);
-
-        // belum tuntas
     }
 
 }
